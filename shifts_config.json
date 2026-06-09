@@ -1,0 +1,20 @@
+{
+    "ma\u00f1ana": {
+        "nombre": "Ma\u00f1ana",
+        "icono": "\u2600",
+        "inicio": "06:00",
+        "fin": "14:00"
+    },
+    "tarde": {
+        "nombre": "Tarde",
+        "icono": "\ud83c\udf24",
+        "inicio": "14:00",
+        "fin": "22:00"
+    },
+    "noche": {
+        "nombre": "Noche",
+        "icono": "\ud83c\udf19",
+        "inicio": "22:00",
+        "fin": "06:00"
+    }
+}

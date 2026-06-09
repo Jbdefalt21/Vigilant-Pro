@@ -1,0 +1,42 @@
+# Entornos virtuales
+
+venv/
+
+# Caché de Python
+
+**pycache**/
+*.pyc
+
+# Respaldos
+
+*.bak
+
+# Evidencias generadas
+
+snapshots/*
+recordings/*
+
+# Logs y métricas
+
+audit_log.json
+registry_log.jsonl
+benchmark_history.json
+events_log.json
+
+# Datos sensibles
+
+users.json
+root_key.json
+
+# Configuración del editor
+
+.vscode/
+
+# Archivos de Claude
+
+.claude/
+
+# Archivos del sistema
+
+Thumbs.db
+.DS_Store

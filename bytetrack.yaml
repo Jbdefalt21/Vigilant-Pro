@@ -1,0 +1,23 @@
+tracker_type: bytetrack
+
+# Umbrales de detección
+# Bajar track_high_thresh reduce las detecciones que caen al pool "low quality",
+# lo que evita que una persona inmóvil con confianza fluctuante pierda su track.
+track_high_thresh: 0.40
+track_low_thresh: 0.05
+
+# Umbral para crear track nuevo: ligeramente más bajo para facilitar re-asociación
+# de tracks que regresaron después de oclusión breve.
+new_track_thresh: 0.50
+
+# Buffer de frames antes de terminar un track sin detección.
+# AI_PROCESS_INTERVAL = 0.5 s  →  300 frames = 150 s de gracia.
+# Una persona inmóvil 2 minutos sin detección conserva su ID.
+track_buffer: 300
+
+# Tolerancia de IoU para asociar detección a track existente.
+# 0.70 (en lugar de 0.80) absorbe el jitter natural de bbox en YOLO
+# para personas inmóviles sin sacrificar precisión de separación.
+match_thresh: 0.70
+
+fuse_score: True
