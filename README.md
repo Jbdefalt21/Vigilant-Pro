@@ -1,5 +1,11 @@
 # Vigilant Pro
 
+Repositorio oficial:
+https://github.com/Jbdefalt21/Vigilant-Pro
+
+Video demostrativo:
+https://www.youtube.com/watch?v=eW4B6X5ENaA
+
 ## Descripción
 
 Vigilant Pro (MEcs Sentinel) es un sistema inteligente de vigilancia y seguridad perimetral ejecutado completamente de forma local (on-premise), sin dependencia de APIs comerciales ni servicios externos. El sistema integra técnicas de visión por computadora mediante modelos YOLO y seguimiento multiobjeto (ByteTrack) para la detección automática de eventos de interés en tiempo real, incluyendo intrusión en zonas restringidas, permanencia y merodeo, personas corriendo o inmóviles, caídas, objetos abandonados y objetos movidos, además de la detección de armas y elementos de protección personal (EPP).
